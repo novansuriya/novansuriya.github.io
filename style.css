@@ -68,7 +68,6 @@ ul {
 /* Akhir Header */
 
 
-
 /* awal top-wrap */
 
 .top-wrapper {
@@ -207,63 +206,63 @@ footer {
 
     .content-sm img {
         padding: 150px 50px;
+    }
+}
 
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+    .navbar {
+        flex-direction: column;
     }
 
-    /* Untuk Smartphone */
-    @media all and (max-width: 670px) {
-        .navbar {
-            flex-direction: column;
-        }
-
-        ul {
-            display: none;
-        }
-
-        .navbar .header-left h1 {
-            text-align: center;
-        }
-
-        .top-wrapper {
-            padding-top: 80px;
-        }
-
-        .top-wrapper .logo {
-            margin-bottom: 40px;
-        }
-
-        .top-about {
-            flex-direction: column;
-            align-items: center;
-        }
-
-        .top-about img {
-            width: 200px;
-            height: 200px;
-        }
-
-        .top-about p {
-            padding-top: 30px;
-            width: 100%;
-        }
-
-        .bottom-about img {
-            width: 50px;
-            margin-top: 20px;
-        }
-
-        .content-portfolio p {
-            font-size: 50px;
-            padding: 50px 0px;
-            letter-spacing: 10px;
-        }
-
-        .content-sm {
-            flex-wrap: wrap;
-        }
-
-        .content-sm img {
-            width: 50%;
-            padding: 30px 40px;
-        }
+    ul {
+        display: none;
     }
+
+    .navbar .header-left h1 {
+        text-align: center;
+    }
+
+    .top-wrapper {
+        padding-top: 80px;
+    }
+
+    .top-wrapper .logo {
+        margin-bottom: 40px;
+    }
+
+    .top-about {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .top-about img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .top-about p {
+        padding-top: 30px;
+        width: 100%;
+    }
+
+    .bottom-about img {
+        width: 50px;
+        margin-top: 20px;
+    }
+
+    .content-portfolio p {
+        font-size: 50px;
+        padding: 50px 0px;
+        letter-spacing: 10px;
+    }
+
+    .content-sm {
+        flex-wrap: wrap;
+    }
+
+    .content-sm img {
+        width: 50%;
+        padding: 30px 40px;
+    }
+}
